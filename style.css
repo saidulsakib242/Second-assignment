@@ -73,11 +73,12 @@ nav>a{
 #col{
     color: #000000;
 }
-#plants{
+.plants{
     text-align: center;
+    
    
 }
-#plants>p{
+.plants>p{
     margin: 10px 276px;
     text-align: center;
 }
@@ -129,6 +130,37 @@ nav>a{
   height: 268px;
   
 }
+.sec-deal{
+    display: flex;
+    margin: 20px 150px;
+    column-gap: 28px;
+     
+  
+     
+  
+}
+#deal-two{
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+     
+  
+
+}
+#deal-1{
+    border-radius: 14px;
+   
+}
+#deal-2{
+    border-radius: 14px;
+  
+}
+#deal-3{
+    border-radius: 22px;
+    
+    
+}
+
+
 
 /* responsive section */
 @media screen and(min-width: 576px) {

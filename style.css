@@ -5,6 +5,7 @@
     color: #000000;
     font-size: 4rem;
     margin-bottom: 0px;
+   
 }
 .text-color{
     color: #E95A08;
@@ -33,9 +34,10 @@
 .primary-text{
   
   font-family: 'Open Sans', sans-serif;
-  font-size: 1.53rem;
+  font-size: 1.33rem;
   color: rgba(0, 0, 0, 0.493);
   text-align: left;
+  /* gap: 20px; */
   margin-right: 75px;
   padding-bottom: 49px;
   
@@ -91,12 +93,46 @@ nav>a{
    padding-bottom: 10px;
     
 }
+.seller-section{
+    display: flex;
+    margin: 150px 150px;
+    gap: auto;
+    justify-content: space-between;
+}
+.Lover{
+    text-align: center;
+}
+#love{
+    text-align: left;
+    margin-left: 200px;
+
+}
+#linear{
+    width: 540px;
+    height: 597px;
+}
+.gap{
+    margin: 20px;
+    margin-left: 180px;
+    margin-right: 0px;
+}
+.img-container{
+  position: relative;
+ 
+}
+.badge {
+  position: absolute;
+  top: -120px;
+  left: 480px; 
+  transform: translateX(-50%);
+  width: 268px; 
+  height: 268px;
+  
+}
 
 /* responsive section */
-/* @media screen and(min-width: 576px) {
-    .nav-bar{
-       
-        flex-direction: column;
+@media screen and(min-width: 576px) {
+    nav>.hidden>a{
         display: none;
     }
     
@@ -107,4 +143,4 @@ nav>a{
 
     }
     
-} */
+}

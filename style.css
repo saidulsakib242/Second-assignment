@@ -41,6 +41,7 @@
   margin-right: 75px;
   padding-bottom: 49px;
   
+  
 
 }
 
@@ -134,6 +135,8 @@ nav>a{
     display: flex;
     margin: 20px 150px;
     column-gap: 28px;
+    justify-content: center;
+    
      
   
      
@@ -141,30 +144,132 @@ nav>a{
 }
 #deal-two{
     display: grid;
-    grid-template-rows: repeat(1, 1fr);
+    grid-template-rows: 1fr;
      
   
 
 }
 #deal-1{
+    background-image: url(assets/deal-bloom.png);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
     border-radius: 14px;
-   
+    width: 365px;
+    height: 200px;
+    text-align: center;
+    align-items: center;
+   font-weight: 900;
+   color: #FFFFFF;
 }
 #deal-2{
+ 
+    background-image: url(assets/deal-ana.png);
+       background-color: rgba(0, 0, 0, 0.5);
+background-blend-mode: darken;
     border-radius: 14px;
+    width: 365px;
+    height: 200px;
+     text-align: center;
+     align-items: center;
+   font-weight: 900;
+   color: #FFFFFF;
   
 }
 #deal-3{
+   
+    background-image: url(assets/deal-zabo.png);
+     background-color: rgba(0, 0, 0, 0.5);
+     background-blend-mode: darken;
     border-radius: 22px;
+    width: 753px;
+    height: 423px;
+     text-align: center;
+     align-items: center;
     
+   font-weight: 900;
+   font-size: 40pxx;
+   color: #FFFFFF;
+    
+    
+}
+.colorfull-branch{
+    background-image: url(assets/news-letter-bg.png);
+    max-width: auto;
+    height: 450px;
+    
+}
+.deals-anchor{
+    
+    color: #FFFFFF;
+}
+.sec-deal h3{
+    font-size: 1.5rem;
+}
+#third{
+    margin-top: 150px;
+    font-size: 2.3rem;
+    text-align: center;
+}
+.colorfull-branch{
+    align-items: center;
+    padding-top: 80px;
+    background-repeat: none;
+}
+.colorfull-branch h1{
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 50px;
+   
+}
+.center{
+     
+     align-items: center;
+     width: 830px;
+     height: 50px;
+     margin-left: 305px;
+     
+}
+.btn-primary-2{
+     background-color:  #E95A08;
+    font-weight: 600;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    width: 186px;
+    height: 55px;
+    
+   
+
+}
+footer{
+    display: flex;
+    margin: 50px 160px;
+    gap: 80px;
+    
+}
+.flex{
+    display: flex;
+  
     
 }
 
 
+.icon>img{
+    margin-left: 20px;
+    
+    
+    
+   
+}
+.primary-text>li{
+    margin-top: 20px;
+    list-style-type: none;
+}
 
 /* responsive section */
-@media screen and(min-width: 576px) {
-    nav>.hidden>a{
+@media screen and(max-width: 576px) {
+    nav .hidden{
         display: none;
     }
     
